@@ -37,27 +37,27 @@ multitasking==0.0.9
 
 ```
 News_recommend/
-├── code/                      # 源代码目录
-│   ├── data.py               # 数据预处理
-│   ├── recall.py             # 召回结果合并
-│   ├── recall_itemcf.py      # ItemCF召回
-│   ├── recall_binetwork.py   # Bi-Network召回
-│   ├── recall_w2v.py         # Word2Vec召回
-│   ├── rank_feature.py       # 特征工程
-│   ├── rank_lgb.py           # LightGBM排序模型
-│   ├── utils.py              # 工具函数
-│   ├── test.sh               # 离线验证脚本
-│   └── online.sh             # 线上测试脚本
-├── user_data/                # 用户数据目录
-│   ├── data/                 # 处理后的数据
-│   ├── log/                  # 日志文件
-│   ├── model/                # 模型文件
-│   ├── sim/                  # 相似度矩阵
-│   └── tmp/                  # 临时文件
-├── prediction_result/         # 预测结果
-│   └── result.csv            # 最终提交结果
-├── requirements.txt          # 依赖包列表
-└── README.md                 # 项目说明文档
+├── code/                      
+│   ├── data.py              
+│   ├── recall.py            
+│   ├── recall_itemcf.py      
+│   ├── recall_binetwork.py   
+│   ├── recall_w2v.py         
+│   ├── rank_feature.py       
+│   ├── rank_lgb.py           
+│   ├── utils.py              
+│   ├── test.sh              
+│   └── online.sh             
+├── user_data/               
+│   ├── data/                
+│   ├── log/                 
+│   ├── model/               
+│   ├── sim/                
+│   └── tmp/                  
+├── prediction_result/      
+│   └── result.csv         
+├── requirements.txt        
+└── README.md               
 ```
 
 # 离线验证
